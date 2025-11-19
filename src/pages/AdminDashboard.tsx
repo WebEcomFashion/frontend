@@ -80,7 +80,7 @@ const AdminDashboard = () => {
           Admin Dashboard
         </h1>
 
-        {/* Navigation Tabs */}
+        {/* Navigation */}
         <div className="flex gap-4 mb-8 border-b border-gray-300">
           {(["overview", "users", "orders", "products"] as const).map((tab) => (
             <button
