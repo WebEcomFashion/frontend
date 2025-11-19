@@ -101,7 +101,7 @@ const AdminDashboard = () => {
         {activeTab === "overview" && (
           <div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-              {/* Total Revenue */}
+              {/* Total */}
               <div className="bg-white rounded-lg p-6 shadow-md">
                 <p className="text-gray-600 text-sm font-medium mb-2">
                   Total Revenue
